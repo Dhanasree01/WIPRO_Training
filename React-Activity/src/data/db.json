@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": "d00d",
+      "name": "carnelian ",
+      "price": "999",
+      "image": "https://images-cdn.ubuy.co.in/634cff576382da5e09789513-500-cts-carnelian-loose-gemstones.jpg"
+    },
+    {
+      "id": "19af",
+      "name": "Ruby",
+      "price": "4235",
+      "image": "https://www.chordiajewels.com/cdn/shop/files/CJ-RB-25-main-453e90df-a4d5-4af4-a7e3-05509170fd3b-_1_1445x.jpg?v=1697615381"
+    },
+    {
+      "id": "ae52",
+      "name": "Diamond",
+      "price": "98768",
+      "image": "https://nakshujewels.com/cdn/shop/articles/Loose_diamond_buy.webp?v=1757570092&width=1100"
+    },
+    {
+      "id": "ccb7",
+      "name": "pearl",
+      "price": "799",
+      "image": "https://cpimg.tistatic.com/08389776/b/4/Burma-Pearl-Stone.jpg"
+    },
+    {
+      "id": "579f",
+      "name": "Rose Quartz",
+      "price": "699",
+      "image": "https://cdn.shopify.com/s/files/1/0098/7978/1461/files/small-rose-quartz-hearts_cc6139b5-1081-4e90-b31c-77605a433a7a_480x480.jpg?v=1695608167"
+    },
+    {
+      "id": "625a",
+      "name": "Amethyst",
+      "price": "799",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRetucnFNEB96dHDqX9E42uY3r8R-FJK9gbvw&s"
+    }
+  ]
+}
