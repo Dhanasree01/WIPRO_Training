@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Todo Task Directory</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        li {
+            margin-bottom: 12px;
+            padding: 8px;
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Todo Task Directory</h2>
+<ul id="todoList"></ul>
+
+<script>
+    const todoList = document.getElementById("todoList");
+
+    const API_URL = "https://jsonplaceholder.typicode.com/todos";
+
+    // Fetch tasks from backend
+    fetch(API_URL)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error("Network response was not ok");
+            }
+            return response.json();
+        })
+        .then(data => {
+
+            const firstFiveTasks = data.slice(0, 5);
+
+            firstFiveTasks.forEach(task => {
+                // Generate a fake email for each user
+                const email = `user${task.userId}@example.com`;
+
+                const li = document.createElement("li");
+                li.innerHTML = `
+                    <strong>User ID:</strong> ${task.userId} <br>
+                    <strong>Email:</strong> ${email} <br>
+                    <strong>Completed:</strong> ${task.completed ? "Yes" : "No"}
+                `;
+                todoList.appendChild(li);
+            });
+        })
+        .catch(error => {
+            console.error("Error fetching data:", error);
+            todoList.innerHTML = "<li>Failed to load tasks, please try again later.</li>";
+        });
+</script>
+
+</body>
+</html>
