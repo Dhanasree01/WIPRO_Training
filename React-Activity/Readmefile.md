@@ -4,7 +4,8 @@ Project Overview:
 This project is a React-based Gemstone Store Application developed in multiple phases to understand 
 core React concepts step-by-step.
 
-Basic React Application(Phase-1)
+PHASE-1
+Basic React Application
 Objective
     Build the basic structure of the application using React.
 Features Implemented
@@ -22,8 +23,8 @@ Components:
     Product listing using reusable Card component
 
 
-
-Controlled & Uncontrolled Registration Forms(Phase-2)
+PHASE-2
+Controlled & Uncontrolled Registration Forms
 Objective
     Implement user registration and login forms using controlled and uncontrolled components.
 Features Implemented
@@ -41,8 +42,8 @@ Features Implemented
     Direct DOM access
     Form data extraction using refs
 
-
-Validations(phase-3)
+PHASE-3
+Validations
 Objective
   Add validation logic to forms to ensure correct user input.
 Features Implemented
@@ -55,8 +56,8 @@ Features Implemented
   Login authentication using localStorage
   Protected routes using HOC / ProtectedRoute
 
-
-Flux Architecture & Dependency Injection (DI)(phase-4)
+PHASE-4
+Flux Architecture & Dependency Injection (DI)
 Objective
   Implement Flux architecture for state management and understand Dependency Injection.
 Features Implemented
