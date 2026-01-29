@@ -1,0 +1,19 @@
+{
+  "courses": [
+    {
+      "id": 2,
+      "name": "Java",
+      "duration": "40 hrs"
+    },
+    {
+      "id": 3,
+      "name": "mern stack",
+      "duration": "6 months"
+    },
+    {
+      "name": "python",
+      "duration": "2 weeks",
+      "id": 4
+    }
+  ]
+}
